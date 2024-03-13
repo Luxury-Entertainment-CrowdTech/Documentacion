@@ -36,4 +36,18 @@ Estas son las vulnerabilidades más comunes para un software en lo que respecta 
 - **Parametrización de consultas:** Usar consultas parametrizadas para prevenir inyecciones SQL.
 - **Implementar tokens CSRF:** Utilizar tokens en formularios y solicitudes para prevenir ataques CSRF.
 - **Seguridad de aplicaciones web (WAFs):** Implementar Firewalls de Aplicaciones Web para proteger contra ataques comunes como SQL Injection y XSS.
-- **Cifrado:** Implementar cifrado de
+- **Cifrado:** Implementar cifrado de datos sensibles en tránsito y en reposo en la aplicación.
+
+### Técnicas más avanzadas:
+- **Análisis estático y dinámico de código:** Utiliza herramientas de análisis estático de código fuente (SAST) y análisis dinámico de aplicaciones (DAST) para identificar vulnerabilidades y problemas de seguridad en el código de tu aplicación antes de que se despliegue.
+- **Aislamiento de aplicaciones (Sandboxing):** Ejecuta código o aplicaciones en entornos aislados para limitar el acceso al sistema subyacente y a los datos, reduciendo así el impacto de un posible exploit.
+- **Seguridad basada en la nube y contenedores:** Implementa prácticas de seguridad específicas para entornos en la nube y contenedores, como la gestión de secretos, políticas de seguridad para el acceso a recursos y el aislamiento de contenedores.
+- **Defensa en profundidad (Layered Security):** Aplica múltiples capas de seguridad en diferentes niveles del sistema para crear redundancia en las defensas y minimizar la posibilidad de un ataque exitoso.
+- **Integración de seguridad en el ciclo de desarrollo de software (DevSecOps):** Incorpora prácticas de seguridad desde las primeras fases del desarrollo de software, automatizando las pruebas de seguridad y asegurando que cada fase del ciclo de vida del desarrollo esté protegida.
+- **Pruebas de penetración avanzadas:** Realiza pruebas de penetración que simulan ataques avanzados y persistentes para identificar vulnerabilidades que no se detectan con pruebas automáticas.
+- **Machine learning para seguridad:** Utiliza algoritmos de machine learning para detectar patrones anómalos y posibles amenazas en tiempo real, mejorando la capacidad de respuesta ante incidentes de seguridad.
+- **Gestión de identidades y accesos (IAM):** Implementa soluciones avanzadas de IAM, incluyendo autenticación multifactor, gestión de privilegios mínimos y control de acceso basado en roles para asegurar que solo los usuarios autorizados puedan acceder a recursos específicos.
+- **Seguridad en APIs:** Asegura tus APIs mediante el uso de autenticación, autorización, limitación de tasas, y encriptación para proteger contra ataques y exposiciones no intencionadas de datos.
+- **Microsegmentación:** Divide los centros de datos y entornos en la nube en segmentos más pequeños para controlar el flujo de tráfico y limitar el movimiento lateral de los atacantes dentro de la red.
+
+
